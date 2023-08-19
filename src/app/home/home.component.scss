@@ -1,0 +1,25 @@
+.example-card {
+  max-width: 400px;
+  background-color: white;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+::ng-deep .mat-mdc-button,
+.mat-mdc-unelevated-button,
+.mat-mdc-raised-button,
+.mat-mdc-outlined-button {
+  background: linear-gradient(to right, #8360c3, #2ebf91) !important;
+  color: white !important;
+  padding: 0px 10px!important;
+}
+::ng-deep .mat-mdc-button:hover,
+.mat-mdc-unelevated-button:hover,
+.mat-mdc-raised-button:hover,
+.mat-mdc-outlined-button:hover {
+  background: linear-gradient(to right, #fc5c7d, #6a82fb) !important;
+  transition: 2s !important;
+}

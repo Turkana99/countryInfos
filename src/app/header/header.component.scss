@@ -1,0 +1,49 @@
+.my_navbar {
+  position: fixed !important;
+  z-index: 1000;
+  color: white;
+  padding: 0px !important;
+}
+.router-link-active {
+  font-weight: bold!important;
+  color: white;
+}
+/*main header*/
+.scd_header {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+
+ul li a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+// ul li a:hover{
+//   color: #;
+// }
+.frs_title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 38px !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.scd_title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 38px;
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-inverse {
+  .scd_header {
+    width: 100% !important;
+    background-color: white!important;
+    transition: 0.4s;
+    color: black;
+  }
+}
